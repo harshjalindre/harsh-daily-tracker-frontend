@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE = import.meta.env.VITE_API_URL || 'http://localhost/harsh-daily-tracker/backend'
+const BASE = import.meta.env.VITE_API_URL || 'https://techleaper.com/Harsh/todo'
 
 const api = axios.create({ baseURL: BASE })
 
